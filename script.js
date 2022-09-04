@@ -45,7 +45,9 @@ return desencriptarTxt;
 function btnCopiar(){
     mensaje.select ();
     navigator.clipboard.writeText(mensaje.value)
+    mensaje.style.backgroundImage = "";
     mensaje.value="" 
+
 }
 
 

@@ -1,7 +1,9 @@
 body{
-    height: 100%;
+    margin: 0;
+    padding: 0;
     background: linear-gradient(rgba(66, 54, 233), rgb(57, 189, 216));
     background-repeat: no-repeat;
+    width: auto;
 }
 h1{
     color: black;
@@ -68,6 +70,7 @@ button{
     height: 500px;
     width: 300px;  
     margin-top: 60px;
+    font-size: 20px;
 }
 .lupa{
     display: show;
@@ -88,3 +91,12 @@ footer{
     text-decoration: underline;
     text-transform: capitalize;
 }
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   body{
+    width: 100%;
+   }
+    #container{
+    display: block;
+
+   }
+  }
