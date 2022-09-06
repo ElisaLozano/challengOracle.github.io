@@ -47,7 +47,7 @@ function btnCopiar(){
     navigator.clipboard.writeText(mensaje.value)
     mensaje.style.backgroundImage = "";
     mensaje.value="" 
-
+alert("Texto Copiado");
 }
 
 
